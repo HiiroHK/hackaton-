@@ -1,3 +1,4 @@
+
 import { Cardcoments } from "@/components/Cardcoments";
 import { Cardinfo } from "@/components/Cardinfo";
 import {
@@ -166,6 +167,7 @@ export function Home() {
           <div></div>
         </footer>
       </div>
+
     </div>
   );
 }
