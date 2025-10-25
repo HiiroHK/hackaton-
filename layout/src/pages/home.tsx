@@ -1,4 +1,3 @@
-
 import { Cardcoments } from "@/components/Cardcoments";
 import { Cardinfo } from "@/components/Cardinfo";
 import {
@@ -15,9 +14,11 @@ export function Home() {
     <div id="home">
       <header className="bg-background/95 sticky top-0 z-50 flex h-[60px] w-full items-center justify-between border-b px-10 backdrop-blur">
         <div>Painting Services</div>
-        <div className="flex gap-3">
+        <div className="flex items-center gap-3">
           <button className="font-normal">Como funciona</button>
-          <button className="font-normal">Sou pintor</button>
+          <a href="/professional">
+            <button className="font-normal">Sou pintor</button>
+          </a>
           <button className="font-normal">Entrar</button>
           <a href="/user">
             <button className="rounded-md bg-blue-500 p-2 text-white">
@@ -167,7 +168,6 @@ export function Home() {
           <div></div>
         </footer>
       </div>
-
     </div>
   );
 }
